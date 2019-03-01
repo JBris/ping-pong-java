@@ -65,7 +65,7 @@ public class assignment1 extends GameEngine implements InterfaceGame {
 	
 	// Main Function
 	public static void main(String args[]) {
-		createGame(new assignment1());
+		createGame(new assignment1(), 60);
 	}
 	
 	/***Constructor***/
@@ -76,6 +76,10 @@ public class assignment1 extends GameEngine implements InterfaceGame {
 	}
 	
 	/***Methods***/
+	
+	public void init() {
+			setWindowSize(700, 700);
+	}
 	
 	public void update(double dt) {
 		stateManager.update(dt);
