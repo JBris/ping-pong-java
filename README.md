@@ -14,7 +14,7 @@ Player 2 Up - Up Arrow
 
 Player 2 Down - Down Arrow
 
-Pause - p
+Pause - P
 
 Confirm - Enter
 
